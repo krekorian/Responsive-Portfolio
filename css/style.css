@@ -1,0 +1,246 @@
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    right: 0px;
+    left: 0px;
+    padding-bottom: 64px;
+    background-color: #ffffff;
+    margin: 0;
+    border-bottom: 3px #cccccc solid;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#header_title {
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#header_contact {
+    float: right;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    border-left: solid #cccccc 1px;
+}
+
+#header_portfolio {
+    float: right;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px 0px 15px 15px;
+    border-left: solid #cccccc 1px;
+}
+
+#header_about {
+    float: right;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px 0px 15px 15px;
+}
+
+.main_content {
+    width: 100%;
+    height: 660px;
+    margin: auto;
+    background-color: #dddddd;
+}
+
+.portfolio_main_content {
+    width: 100%;
+    height: 960px;
+    margin: auto;
+    background-color: #dddddd;
+}
+
+.content_frame {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    height: 560px;
+    top: 40px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.portfolio_content_frame {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    height: 860px;
+    top: 40px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+section {
+    background-color: #ffffff;
+}
+
+form {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+#inside_header {
+    color: #4aaaa5;
+    float: left;
+    width: 100%;
+    max-width: 880px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 3px #cccccc solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#profile_box1 {
+    padding-top: 40px;
+    text-align: justify;
+    width: 68%;
+    float: right;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    font-size: 14pt;
+    line-height: 1.6;
+}
+
+#profile_pic {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+#text_block_1 {
+    width: 90%;
+    padding-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    overflow: auto;
+    font-size: 14pt;
+    text-align: justify;
+    line-height: 1.6;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-left: 140px;
+    padding-top: 20px;
+    height: 200px;
+    width: 100%;
+    max-width: 590px;
+}
+
+#footer {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    padding-top: 40px;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 5px #4aaaa5 solid;
+    text-align: center;
+}
+
+.row {
+    padding-left: 40px;
+}
+
+.column img {
+    margin-top: 0px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Container holding the image and the text */
+
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    max-width: 160px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+    .header_container, .portfolio_content_frame, .content_frame, .main_content {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header_container, .portfolio_content_frame, .content_frame, .main_content {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header_container, .portfolio_content_frame, .content_frame, .main_content {
+        width: 100%;
+        padding: 10px;
+    }
+}
